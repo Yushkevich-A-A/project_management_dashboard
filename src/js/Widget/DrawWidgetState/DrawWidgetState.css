@@ -1,0 +1,30 @@
+.state-block {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .widget-body-head {
+    background-color: #fff;
+    border: 1px solid #818181; 
+  }
+  
+  .list-item {
+    background-color: #fff;
+    border-bottom: 1px solid #818181;
+    border-left: 1px solid #818181; 
+    border-right: 1px solid #818181; 
+  }
+  
+  .block-project-info {
+    margin-right: 15px;
+  }
+  
+  .project-info-list {
+    color: white;
+    background: #000;
+    width: 30px;
+    border-radius: 15px;
+    text-align: center;
+  }

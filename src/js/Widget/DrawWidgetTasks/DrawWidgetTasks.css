@@ -1,0 +1,57 @@
+.block-project-select {
+    position: relative;
+  }
+  
+  .block-select-project {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #818181;
+    display: flex;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+  }
+  
+  .block-select-project-list {
+    margin-left: 10px;
+  }
+  .block-select-item {
+    margin-top: 5px;
+  }
+  
+  .block-project-name {
+    margin-right: 10px;
+  }
+  
+  .project-selected {
+    text-decoration: underline;
+  }
+  
+  .project-selected:hover {
+    color: #ff9a04;
+  }
+  
+  .task-item {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .block-status-task {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #818181;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .complete::before {
+    content: "\2714";
+    font-size: 12px;
+  }
+  
+  

@@ -1,0 +1,20 @@
+.wrapper-widgets {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .widget {
+    max-width: 400px;
+    width: 100%;
+    margin: 40px;
+  }
+
+  .block-title-widget {
+    margin-bottom: 10px;
+  }
+  
